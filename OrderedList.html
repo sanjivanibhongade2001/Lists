@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ordered List</title>
+</head>
+<body>
+    <!-- By default it will display list in number ordered when we don't specify the type -->
+    <ol>
+        <li>Red</li>
+        <li>Green</li>
+        <li>Blue</li>
+        <li>Purple</li>
+    </ol>
+
+    <!-- we can also set a starting number, using the start attribute. -->
+    <ol start="11">
+        <li>Red</li>
+        <li>Green</li>
+        <li>Blue</li>
+        <li>Purple</li>
+    </ol>
+
+    <!-- We can also explicitly set a certain list item to a specific number -->
+    <ol start="11">
+        <li>Red</li>
+        <li>Green</li>
+        <li value="2">Blue</li>
+        <li>Purple</li>
+    </ol>
+
+    <!-- You can reverse the numbering by adding reversed in your ol element: -->
+    <ol reversed>
+        <li>Red</li>
+        <li>Green</li>
+        <li>Blue</li>
+        <li>Purple</li>
+    </ol>
+
+    <!-- can easily change the type of numeral shown in the list item marker by using the type attribute -->
+    <!-- Type Description Examples   Default value - Decimal numbers 1,2,3,4
+    <!--     a Alphabetically ordered (lowercase) a,b,c,d -->
+    <ol type="a">
+        <li>Red</li>
+        <li>Green</li>
+        <li>Blue</li>
+        <li>Purple</li>
+    </ol>
+<!--     A Alphabetically ordered (uppercase) A,B,C,D -->
+    <ol type="A">
+        <li>Red</li>
+        <li>Green</li>
+        <li>Blue</li>
+        <li>Purple</li>
+    </ol>
+
+<!--     I Roman Numerals (uppercase) I,II,III,IV -->
+    <ol type="I">
+        <li>Red</li>
+        <li>Green</li>
+        <li>Blue</li>
+        <li>Purple</li>
+    </ol>
+    <!-- i Roman Numerals (lowercase) i,ii,iii,iv -->
+    <ol type="i">
+        <li>Red</li>
+        <li>Green</li>
+        <li>Blue</li>
+        <li>Purple</li>
+    </ol>
+
+</body>
+</html>
